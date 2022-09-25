@@ -1,0 +1,193 @@
+body{
+    max-width: 100%;;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+.container{
+    display: grid; /*Aqui inicia a configuração do grid*/
+    grid-template: 15vh 115vh 40vh / 0.50fr 3fr  ;
+    grid-template-areas:
+                        "a n "  
+                        "a m "
+                        "a m "                      
+}
+.div{
+    display: grid; /*Aqui inicia a configuração do grid*/
+    grid-template: 30vh 10vh 10vh / 1fr  ;
+    grid-template-areas:
+                        " im "  
+                        " ul "
+                        " ul ";
+}
+.div1{
+    display: grid; /*Aqui inicia a configuração do grid*/
+            
+    grid-template: 40vh 40vh 40vh 20vh/ 1fr;
+            grid-template-areas: 
+                                "c"
+                                "o"
+                                "f"
+                                "i";
+            gap: 1vh;
+}
+
+   
+header{
+    background-color: black;
+    color: white;
+    grid-area: n;
+}
+
+main{
+    
+    background-color:black;
+    grid-area: m;
+    color:white;
+}
+.contato{
+    
+    background-color:black;
+    border-radius: 30px;
+    grid-area: c; 
+}
+.objetivo{
+    background-color:black;
+    border-radius: 30px;
+    grid-area: o;
+}
+.formacao{
+    background-color:black;
+    border-radius: 30px;
+    grid-area: f;
+
+}
+.idiomas{
+    background-color:black;
+    border-radius: 30px;
+    grid-area: i;
+
+}
+
+aside{
+    background-color: aqua;
+    grid-area: a;
+    border-radius: 30px 30px 30px 30px;
+    height: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.img{
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    max-width:200px;
+    width: 100%;
+    grid-area: im;
+
+    
+}.volt{
+  
+    position:fixed ;
+    bottom: 0;
+    right: 0;
+    
+}
+
+
+    
+
+ul{
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display:flex ;
+    flex-direction: column;
+    
+    
+}
+
+
+
+li{
+    flex-grow: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 4;
+}
+a{
+    display: block;
+    padding: 0.8em;
+    background-color: black ;
+    text-align: center;
+    margin-bottom: 0.2em;
+    text-decoration: none;
+    color: aqua;
+    width: 6em;
+    border-radius: 50px;
+    gap: 4;
+}
+a:hover{
+    background-color: aqua;
+    color: black;
+}
+section{
+    text-align: center;
+}
+@media (max-width:768px){ 
+    
+    .container{display: grid; /*Aqui inicia a configuração do grid*/
+    grid-template: 20vh 70vh 120vh/  0.25fr 1fr ;
+    grid-template-areas:
+                        "a n "  
+                        "a m "
+                        "a m ";
+    }
+    .div1{
+        display: grid; /*Aqui inicia a configuração do grid*/
+                
+        grid-template: 40vh 40vh 45vh 20vh/ 1fr;
+                grid-template-areas: 
+                                    "c"
+                                    "o"
+                                    "f"
+                                    "i";
+                gap: 1vh;
+   
+   
+}
+@media (max-width:480px){ 
+    
+    .container{
+    display: grid; /*Aqui inicia a configuração do grid*/
+    grid-template: 10vh 70vh 120vh/  1fr  ;
+    grid-template-areas:
+                        "n "  
+                        "a "
+                        "m ";
+    }.div1{
+        display: grid; /*Aqui inicia a configuração do grid*/  
+        grid-template: 25vh 25vh 30vh 20vh/ 1fr;
+                grid-template-areas: 
+                                    "c"
+                                    "o"
+                                    "f"
+                                    "i";
+                gap: 1vh; 
+}
+}
+}
