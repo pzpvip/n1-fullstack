@@ -188,6 +188,8 @@ section{
                                     "f"
                                     "i";
                 gap: 1vh; 
-}
+}aside{
+    border-radius: 0px ;
+    }
 }
 }
