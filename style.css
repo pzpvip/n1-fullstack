@@ -176,7 +176,7 @@ section{
     
     .container{
     display: grid; /*Aqui inicia a configuração do grid*/
-    grid-template: 10vh 70vh 130vh/  1fr  ;
+    grid-template: 10vh 70vh 140vh/  1fr  ;
     grid-template-areas:
                         "n "  
                         "a "
@@ -184,7 +184,7 @@ section{
         gap: 1vh;
     }.div1{
         display: grid; /*Aqui inicia a configuração do grid*/  
-        grid-template: 30vh 30vh 30vh 20vh/ 1fr;
+        grid-template: 30vh 30vh 30vh 30vh/ 1fr;
                 grid-template-areas: 
                                     "c"
                                     "o"
