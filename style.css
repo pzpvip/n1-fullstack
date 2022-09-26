@@ -25,7 +25,7 @@ h1,h2,h3,p{
 }
 .div{
     display: grid; /*Aqui inicia a configuração do grid*/
-    grid-template: 30vh 10vh 10vh / 1fr  ;
+    grid-template: 30vh 15vh 15vh / 1fr  ;
     grid-template-areas:
                         " im "  
                         " ul "
