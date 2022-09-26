@@ -174,7 +174,7 @@ section{
     
     .container{
     display: grid; /*Aqui inicia a configuração do grid*/
-    grid-template: 10vh 70vh 120vh/  1fr  ;
+    grid-template: 10vh 75vh 125vh/  1fr  ;
     grid-template-areas:
                         "n "  
                         "a "
