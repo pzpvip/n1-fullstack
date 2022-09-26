@@ -189,7 +189,14 @@ section{
                                     "f"
                                     "i";
                 gap: 1vh; 
-}aside{
+}
+    .div{
+    display: grid; /*Aqui inicia a configuração do grid*/
+    grid-template: 30vh 15vh 1vh / 1fr  ;
+    grid-template-areas:
+                        " im "  
+                        " ul "
+                        " ul ";aside{
     border-radius: 0px ;
     width: 100%;
     margin:0 auto;
