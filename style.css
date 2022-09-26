@@ -192,6 +192,7 @@ section{
 }aside{
     border-radius: 0px ;
     width: 100%;
+    margin:0 auto;
     }
 }
 }
