@@ -169,11 +169,7 @@ section{
    
    
 }
-    aside{
-    border-radius: 0px ;
-    width: 100%;
-        magin:0 auto;
-    }
+   
 @media (max-width:480px){ 
     
     .container{
@@ -195,6 +191,8 @@ section{
                 gap: 1vh; 
 }aside{
     border-radius: 0px ;
+    width: 100%;
+    magin:0 auto;
     }
 }
 }
