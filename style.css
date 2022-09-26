@@ -18,7 +18,7 @@ h1,h2,h3,p{
 }
 .container{
     display: grid; /*Aqui inicia a configuração do grid*/
-    grid-template: 15vh 115vh 40vh / 0.50fr 3fr  ;
+    grid-template: 15vh 120vh 50vh / 0.50fr 3fr  ;
     grid-template-areas:
                         "a n "  
                         "a m "
@@ -35,7 +35,7 @@ h1,h2,h3,p{
 .div1{
     display: grid; /*Aqui inicia a configuração do grid*/
             
-    grid-template: 40vh 40vh 40vh 20vh/ 1fr;
+    grid-template: 50vh 50vh 50vh 20vh/ 1fr;
             grid-template-areas: 
                                 "c"
                                 "o"
