@@ -174,14 +174,14 @@ section{
     
     .container{
     display: grid; /*Aqui inicia a configuração do grid*/
-    grid-template: 10vh 75vh 125vh/  1fr  ;
+    grid-template: 10vh 75vh 150vh/  1fr  ;
     grid-template-areas:
                         "n "  
                         "a "
                         "m ";
     }.div1{
         display: grid; /*Aqui inicia a configuração do grid*/  
-        grid-template: 25vh 25vh 30vh 20vh/ 1fr;
+        grid-template: 30vh 30vh 35vh 20vh/ 1fr;
                 grid-template-areas: 
                                     "c"
                                     "o"
