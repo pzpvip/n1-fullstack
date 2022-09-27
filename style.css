@@ -182,7 +182,7 @@ section{
         gap: 1vh;
     }.div1{
         display: grid; /*Aqui inicia a configuração do grid*/  
-        grid-template: 30vh 30vh 50vh 30vh/ 1fr;
+        grid-template: 50vh 50vh 50vh 30vh/ 1fr;
                 grid-template-areas: 
                                     "c"
                                     "o"
