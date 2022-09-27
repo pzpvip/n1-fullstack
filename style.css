@@ -159,7 +159,7 @@ section{
     .div1{
         display: grid; /*Aqui inicia a configuração do grid*/
                 
-        grid-template: 40vh 40vh 45vh 20vh/ 1fr;
+        grid-template: 50vh 50vh 45vh 20vh/ 1fr;
                 grid-template-areas: 
                                     "c"
                                     "o"
